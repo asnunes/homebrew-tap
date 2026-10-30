@@ -10,6 +10,12 @@ A native macOS menu bar app for SSH tunnels. Requires macOS 13 or later on Apple
 brew install --cask asnunes/tap/easy-tunnel
 ```
 
+If Homebrew reports an untrusted tap, authorize this cask and run the install command again:
+
+```sh
+brew trust --cask asnunes/tap/easy-tunnel
+```
+
 Update:
 
 ```sh

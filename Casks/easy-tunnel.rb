@@ -4,11 +4,11 @@ cask "easy-tunnel" do
 
   url "https://github.com/asnunes/easy-tunnel/releases/download/v#{version}/Easy-Tunnel-v#{version}-macos-arm64.zip"
   name "Easy Tunnel"
-  desc "Native macOS menu bar app for SSH tunnels"
+  desc "Menu bar app for SSH tunnels"
   homepage "https://github.com/asnunes/easy-tunnel"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Easy Tunnel.app"
 end
